@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server, {
   cors: {
-    origin: "https://hardcore-heisenberg-fd4ac0.netlify.app/",
+    origin: "https://hardcore-heisenberg-fd4ac0.netlify.app",
     methods: ["GET", "POST"],
     credentials: true,
   },
